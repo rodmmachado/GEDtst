@@ -1,0 +1,5 @@
+C:\RepositorioLocal\BPDWebsite\Kernel\bin\Debug\BPDWeb.Kernel.dll
+C:\RepositorioLocal\BPDWebsite\Kernel\bin\Debug\BPDWeb.Kernel.pdb
+C:\RepositorioLocal\BPDWebsite\Kernel\obj\Debug\ResolveAssemblyReference.cache
+C:\RepositorioLocal\BPDWebsite\Kernel\obj\Debug\BPDWeb.Kernel.dll
+C:\RepositorioLocal\BPDWebsite\Kernel\obj\Debug\BPDWeb.Kernel.pdb

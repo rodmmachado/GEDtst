@@ -1,0 +1,85 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4F70C3E-B79E-4DCF-8754-46832DC18164}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BPDWeb.Kernel</RootNamespace>
+    <AssemblyName>BPDWeb.Kernel</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security.Protocol.Tls, Version=1.0.1528.33423, Culture=neutral, PublicKeyToken=4c884638a2b03853" />
+    <Reference Include="Npgsql, Version=0.7.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cadastro\Cliente.cs" />
+    <Compile Include="Cadastro\ClienteCONTROLADOR.cs" />
+    <Compile Include="Cadastro\ClienteDAO.cs" />
+    <Compile Include="Dominio\Dominio.cs" />
+    <Compile Include="Dominio\DominioDAO.cs" />
+    <Compile Include="GED\Registro.cs" />
+    <Compile Include="GED\RegistroCONTROLADOR.cs" />
+    <Compile Include="GED\RegistroDAO.cs" />
+    <Compile Include="Persistencia\Atributo\Coluna.cs" />
+    <Compile Include="Persistencia\Atributo\ManipuladorPropiedade.cs" />
+    <Compile Include="Persistencia\Atributo\MontarDaoDataRow.cs" />
+    <Compile Include="Persistencia\Atributo\Tabela.cs" />
+    <Compile Include="Persistencia\Atributo\ValidarAtributo.cs" />
+    <Compile Include="Persistencia\Persistencia.cs" />
+    <Compile Include="Persistencia\Sql\Sql.cs" />
+    <Compile Include="Persistencia\Sql\SqlExclusao.cs" />
+    <Compile Include="Persistencia\Sql\SqlInclusao.cs" />
+    <Compile Include="Persistencia\Sql\SqlUpdate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguranca\UsuarioCliente.cs" />
+    <Compile Include="Seguranca\UsuarioClienteCONTROLADOR.cs" />
+    <Compile Include="Seguranca\UsuarioClienteDAO.cs" />
+    <Compile Include="Seguranca\EstruturaUsuario.cs" />
+    <Compile Include="Seguranca\Usuario.cs" />
+    <Compile Include="Seguranca\UsuarioCONTROLADOR.cs" />
+    <Compile Include="Seguranca\UsuarioDAO.cs" />
+    <Compile Include="Util\Acesso.cs" />
+    <Compile Include="Util\Criptografia\ExpiredQueryStringException.cs" />
+    <Compile Include="Util\Criptografia\InvalidQueryStringException.cs" />
+    <Compile Include="Util\Criptografia\SecureQueryString.cs" />
+    <Compile Include="Util\Email.cs" />
+    <Compile Include="Util\ExportCSV.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

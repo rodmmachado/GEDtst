@@ -1,0 +1,10 @@
+C:\Repositorio Local\BPD\SISTEMAS\Unimed_GED_Web\Kernel\bin\Debug\BPDWeb.Kernel.dll
+C:\Repositorio Local\BPD\SISTEMAS\Unimed_GED_Web\Kernel\bin\Debug\BPDWeb.Kernel.pdb
+C:\Repositorio Local\BPD\SISTEMAS\Unimed_GED_Web\Kernel\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositorio Local\BPD\SISTEMAS\Unimed_GED_Web\Kernel\obj\Debug\BPDWeb.Kernel.dll
+C:\Repositorio Local\BPD\SISTEMAS\Unimed_GED_Web\Kernel\obj\Debug\BPDWeb.Kernel.pdb
+C:\Repositorio Local\BPD\SISTEMAS\UVX_Kernel\Kernel\bin\Debug\BPDWeb.Kernel.dll
+C:\Repositorio Local\BPD\SISTEMAS\UVX_Kernel\Kernel\bin\Debug\BPDWeb.Kernel.pdb
+C:\Repositorio Local\BPD\SISTEMAS\UVX_Kernel\Kernel\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositorio Local\BPD\SISTEMAS\UVX_Kernel\Kernel\obj\Debug\BPDWeb.Kernel.dll
+C:\Repositorio Local\BPD\SISTEMAS\UVX_Kernel\Kernel\obj\Debug\BPDWeb.Kernel.pdb

@@ -1,0 +1,647 @@
+A
+
+
+
+{
+
+TEXT-DECORATION: none
+
+}
+
+.txt100x15
+
+{
+
+PADDING-LEFT: 2px;
+
+FONT-SIZE: 10px;
+
+MARGIN: 0px;
+
+WIDTH: 100px;
+
+COLOR: black;
+
+FONT-FAMILY: "Verdana";
+
+HEIGHT: 20px;
+
+TEXT-ALIGN: left
+
+}
+
+.txt200x15
+
+{
+
+PADDING-LEFT: 2px;
+
+FONT-SIZE: 10px;
+
+MARGIN: 0px;
+
+WIDTH: 200px;
+
+COLOR: black;
+
+FONT-FAMILY: "Verdana";
+
+HEIGHT: 20px;
+
+TEXT-ALIGN: left
+
+}
+
+.TextoSimples
+
+{
+
+font-family: "Verdana";
+
+font-size: 10px; 
+
+}
+
+.TextoSimplesNegrito
+
+{
+
+font-family: "Verdana";
+
+font-size: 10px;
+
+font-weight: bold; 
+
+}
+
+.TextoSimplesDinheiro
+
+{
+
+font-family: "Verdana";
+
+font-size: 10px;
+
+TEXT-ALIGN: right; 
+
+}
+
+.TextoSimples2
+{
+
+font-family: "Verdana";
+
+font-size: 12px; 
+}
+
+.TextoSimplesDinheiro
+
+{
+
+font-family: "Verdana";
+
+font-size: 10px;
+
+TEXT-ALIGN: right; 
+
+}
+
+.CampoObrigatorio
+
+{
+
+font-family: "Verdana";
+
+font-size: 14px; 
+
+color: Red; 
+
+}
+
+.CabecalhoPropriedades
+
+{
+
+font-family: "Arial";
+
+font-size: 10px;
+
+font-weight: bold; 
+
+color:White; 
+
+}
+
+.TextoBoxInicial
+
+{
+
+font-family: "Arial";
+
+font-size: 11px;
+
+font-weight: bold; 
+
+color: #333366; 
+
+}
+
+ 
+
+.TextoSimples1px
+
+{
+
+font-family: "Arial";
+
+font-size: 11px; 
+
+}
+
+.TextoSimples3px
+
+{
+
+font-size: 14px;
+
+font-family: "Arial";
+
+}
+
+.CabecalhoNivel1
+
+{
+
+font-weight: bold;
+
+font-size: 22px;
+
+font-family: "Arial"; 
+
+}
+
+.CabecalhoNivel2
+
+{
+
+font-weight: bold;
+
+font-size: 18px;
+
+font-family: "Arial";
+
+}
+
+.CabecalhoNivel3
+
+{
+
+font-weight: bold;
+
+font-size: 14px;
+
+font-family: "Arial";
+
+}
+
+.CabecalhoNivel4
+
+{
+
+font-weight: bold;
+
+font-size: 12px;
+
+font-family: "Arial";
+
+}
+
+TABLE.TabelaSimples
+
+{
+
+PADDING-RIGHT: 0px;
+
+PADDING-LEFT: 0px;
+
+FONT-SIZE: 10pt;
+
+PADDING-BOTTOM: 0px;
+
+PADDING-TOP: 0px;
+
+FONT-FAMILY: Verdana
+
+}
+
+TD.TabelaSimples
+
+{
+
+PADDING-RIGHT: 0px;
+
+PADDING-LEFT: 0px;
+
+FONT-SIZE: 10pt;
+
+PADDING-BOTTOM: 0px;
+
+PADDING-TOP: 0px;
+
+FONT-FAMILY: Verdana
+
+}
+
+INPUT.TabelaSimples
+
+{
+
+FONT-SIZE: 10pt;
+
+WIDTH: 120px;
+
+FONT-FAMILY: Verdana;
+
+TEXT-ALIGN: right
+
+}
+
+.cbo18x25
+
+{
+
+FONT-SIZE: 6px;
+
+WIDTH: 25px;
+
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+HEIGHT: 18px
+
+}
+
+.cbo18x100
+
+{
+
+FONT-SIZE: 10px;
+
+WIDTH: 100px;
+
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+HEIGHT: 18px
+
+}
+
+.cbo18x200
+
+{
+
+FONT-SIZE: 10px;
+
+WIDTH: 200px;
+
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+HEIGHT: 18px
+
+}
+
+.cbo18x300
+
+{
+
+FONT-SIZE: 10px;
+
+WIDTH: 300px;
+
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+HEIGHT: 18px
+
+}
+
+.btnSalvar
+
+{
+
+font-family: "Verdana";
+
+font-size: 10px; 
+
+WIDTH: 80px;
+
+}
+
+.Form, INPUT.InputTextTexto
+	{
+		background-color: #f9f9f9;
+		border: double 1px #49669E;
+		font-family: "Verdana";
+		font-size: 10px;
+	}
+	
+.botao
+{
+background-color:#81AEEA;
+color:#ffffff;
+border: 1px solid #496278;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight:bold;
+height:20px;
+}	
+
+.lnkMenu
+{
+	font-family: "Arial";
+	font-size: 12px;	
+	font-weight:bold;
+	font-style:normal;
+	color: white;
+	text-decoration:none;
+	
+}
+
+.tblForm
+{
+	background-color: #F0F1F6;
+	width:95%;
+	color: #001055;
+	border: double 1px #49669E;
+	padding: 0px;
+	margin: 0px;	
+	font-family: "Arial";
+	font-size: 10px;	
+}
+
+.tblFormlogin
+{
+	background-color: #FFFFFF;	
+	color: #001055;
+	border: double 1px #49669E;
+	padding: 0px;
+	margin: 0px;	
+	font-family: "Arial";
+	font-size: 10px;
+}
+
+.botao
+{
+background-color:#81AEEA;
+color:#ffffff;
+border: 1px solid #496278;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight:bold;
+height:20px;
+}
+
+
+
+.Tit1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight:bold;
+	color: #333366;
+}
+
+.SubTitulo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	color: #333366;	
+	
+}
+
+.TituloAreaCliente
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;	
+	background-color:#064c91;
+}
+
+
+TABLE.GridSistema
+	{
+		BORDER-RIGHT: white 1px solid; 
+		BORDER-TOP: white 1px solid; 
+		BORDER-LEFT: white 1px solid; 
+		BORDER-BOTTOM: white 1px solid;
+		background-color: #FFFFFF;
+		padding: 2px;
+		font-family: "Arial";
+		font-size: 10px;
+	}
+
+	TR.GridSistemaCabecalho
+	{
+		background-color: #49669E;
+		color: White;
+		text-align: center;
+		height: 20px;
+		font: bold;
+		font-size: 10px;
+	}
+	
+	TR.GridSistemaItem
+	{
+		background-color: #ffffff;
+		height: 20px;
+		text-align: left;
+		font-size: 10px;
+	}
+
+	TR.GridSistemaItemAlternado
+	{
+		background-color: #D6DCE8;
+		height: 20px;
+		text-align: left;
+		font-size: 10px;
+	}
+	
+	TR.GridSistemaSelecionado
+	{
+		background-color: #DFECF5;		
+		height: 20px;
+		text-align: left;
+		font-size: 10px;
+	}
+	
+	TR.GridSistemaPaginacao
+	{
+		background-color: #49669E;
+		height: 20px;
+		color: Black;
+		text-align: center;
+		font: bold;
+		font-size: 10px;
+	}
+	
+.Rodape
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 7pt;
+	padding-bottom: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	color: White;
+    padding-top: 0px;
+	font-family: Arial, Verdana, Serif;
+	text-align: center;
+}
+
+.Line
+{
+	background-color: transparent;
+	text-align: center;
+	color: White;
+	height: 0.2px;
+}
+
+body
+{
+	background-color: #bfcfe2;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	border-top-style: none;
+	padding-top: 0px;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+.content
+{
+	width: 760px;
+	height: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-color: Silver;
+	border-width: 2px;
+	background-image: none;
+	padding-bottom: 0px;
+	border-top-style: none;
+	padding-top: 0px;
+	border-right-style: solid;
+	border-left-style: solid;
+	background-color: black;
+	border-bottom-style: none;
+}
+
+
+
+.toplink
+{
+	font: caption;
+	color: white;
+	text-decoration: none;
+	font-size: 9px;
+	height: 20px;
+	width: 100%;
+	background-color: #023d75;
+	border: 1px;
+	border-color: Silver;
+}
+
+.TextBox
+{
+	color: white;
+	font-family: Arial, Verdana;
+	border-bottom-style: none;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+}
+
+
+
+.TabelaFormulario
+{
+	font-size: 9pt;
+	color: white;
+	font-family: Arial;
+}
+
+.Popup
+{
+	background-color: #023d75;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	vertical-align: middle;
+	position: static;
+	text-align: center;
+}
+
+
+.DivPopup
+{
+	color: White;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-image: none;
+	padding-bottom: 0px;
+	margin: 0px;
+	vertical-align: top;
+	width: 90%;
+	padding-top: 0px;
+	font-family: Arial, Verdana;
+	height: 90%;
+	background-color: transparent;
+	text-align: justify;
+	font-size: 11px;
+}
+.desabilita{
+	display: none;
+	position: fixed !important;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 999;
+	background-color: #000000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.3;
+}
+.fonte1 {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #000033;
+}
+
+DIV.ProgressBar  
+{
+	width: 100px; 
+	padding: 0; 
+	border: 1px solid black; 
+	margin-right: 1em; 
+	height:.75em; 
+	margin-left:1em; 
+	display:-moz-inline-stack; 
+	display:inline-block; 
+	zoom:1; 
+	*display:inline; }
+
+DIV.ProgressBar DIV 
+{ 
+	background-color: Green; 
+	font-size: 1pt; 
+	height:100%; 
+	float:left; }
+
+SPAN.asyncUploader OBJECT  
+{
+	position: relative; 
+	top: 5px; 
+	left: 10px; 
+}

@@ -1,0 +1,225 @@
+﻿using BPDWeb.Kernel.Dominio;
+using BPDWeb.Kernel.DB.Atributo;
+using System;
+
+namespace BPDWeb.Kernel.Cadastro
+{
+    [Tabela("registro", "registro_id_registro_seq")]
+    public class RegistroDAO : DominioDAO
+    {
+
+        private int _idRegistro;
+        [Coluna("id_registro", false, true, false, "Identificador do Registro")]
+        public int IdRegistro
+        {
+            get { return _idRegistro; }
+            set { _idRegistro = value; }
+
+        }
+            
+        
+        private string _numeroLocalizador;
+        [Coluna("numero_localizador", true, false, false, "Nº do Localizador")]
+        public string NumeroLocalizador
+        {
+            get { return _numeroLocalizador; }
+            set { _numeroLocalizador = value; }
+        }
+
+        private string _nome;
+        [Coluna("nome", true, false, false, "Nome")]
+        public string Nome
+        {
+            get { return _nome; }
+            set { _nome = value; }
+        }
+
+        private string _cpfCnpj;
+        [Coluna("cpf_cnpj", false, false, false, "CPF ou CNPJ")]
+        public string CpfCnpj
+        {
+            get { return _cpfCnpj; }
+            set { _cpfCnpj = value; }
+        }
+
+        private string _numeroContrato;
+        [Coluna("numero_contrato", false, false, false, "Número do Contrato")]
+        public string NumeroContrato
+        {
+            get { return _numeroContrato; }
+            set { _numeroContrato = value; }
+        }
+
+        private string _arquivoEspelho;
+        [Coluna("arquivo_espelho", false, false, false, "Arquivo de Espelho")]
+        public string ArquivoEspelho
+        {
+            get { return _arquivoEspelho; }
+            set { _arquivoEspelho = value; }
+        }
+
+        private DateTime _dataPostagem;
+        [Coluna("data_postagem", true, false, false, "Data de Postagem")]
+        public DateTime DataPostagem
+        {
+            get { return _dataPostagem; }
+            set { _dataPostagem = value; }
+        }
+
+
+        private DateTime _dataProcessamento;
+        [Coluna("data_processamento", false, false, false, "Data de Processamento")]
+        public DateTime DataProcessamento
+        {
+            get { return _dataProcessamento; }
+            set { _dataProcessamento = value; }
+        }
+
+        private DateTime _dataLancamento;
+        [Coluna("data_lancamento_ar", false, false, false, "Data de Lançamento do Ar")]
+        public DateTime DataLancamento
+        {
+            get { return _dataLancamento; }
+            set { _dataLancamento = value; }
+        }
+
+        private DateTime _dataRetorno;
+        [Coluna("data_retorno_ar", false, false, false, "Data de Retorno do Ar")]
+        public DateTime DataRetorno
+        {
+            get { return _dataRetorno; }
+            set { _dataRetorno = value; }
+        }
+
+        private string _arquivoDigitalizado;
+        [Coluna("arquivo_digitalizado", false, false, false, "Arquivo Digitalizado do Ar")]
+        public string ArquivoDigitalizado
+        {
+            get { return _arquivoDigitalizado; }
+            set { _arquivoDigitalizado = value; }
+        }
+
+        private int _status;
+        [Coluna("status", false, false, false, "Status", true)]
+        public int Status
+        {
+            get { return _status; }
+            set { _status = value; }
+        }
+
+        private int _motivo_devolucao;
+        [Coluna("motivo_devolucao", false, false, false, "Motivo Devolução")]
+        public int MotivoDevolucao
+        {
+            get { return _motivo_devolucao; }
+            set { _motivo_devolucao = value; }
+        }
+
+
+        private string _numeroLote;
+        [Coluna("numero_lote", false, false, false, "Nº do Lote")]
+        public string NumeroLote
+        {
+            get { return _numeroLote; }
+            set { _numeroLote = value; }
+        }
+
+        private string _codigoCarta;
+        [Coluna("codigo_carta", false, false, false, "Código da Carta")]
+        public string CodigoCarta
+        {
+            get { return _codigoCarta; }
+            set { _codigoCarta = value; }
+        }
+
+        private string _endereco;
+        [Coluna("endereco", false, false, false, "Endereço")]
+        public string Endereco
+        {
+            get { return _endereco; }
+            set { _endereco = value; }
+        }
+
+        private string _bairro;
+        [Coluna("bairro", false, false, false, "Bairro")]
+        public string Bairro
+        {
+            get { return _bairro; }
+            set { _bairro = value; }
+        }
+
+        private string _cidade;
+        [Coluna("cidade", false, false, false, "Cidade")]
+        public string Cidade
+        {
+            get { return _cidade; }
+            set { _cidade = value; }
+        }
+
+        private string _uf;
+        [Coluna("uf", false, false, false, "Uf")]
+        public string Uf
+        {
+            get { return _uf; }
+            set { _uf = value; }
+        }
+
+        private string _cep;
+        [Coluna("cep", false, false, false, "Cep")]
+        public string Cep
+        {
+            get { return _cep; }
+            set { _cep = value; }
+        }
+
+        private string _arquivoImportacao;
+        [Coluna("arquivo_importacao", false, false, false, "Arquivo de Importação")]
+        public string ArquivoImportacao
+        {
+            get { return _arquivoImportacao; }
+            set { _arquivoImportacao = value; }
+        }
+
+
+        private bool _historicoRastreamentoImportado;
+        [Coluna("historico_rastreamento_importado", false, false, false, "Historico Rastreamento Importado")]
+        public bool HistoricoRastreamentoImportado
+        {
+            get { return _historicoRastreamentoImportado; }
+            set { _historicoRastreamentoImportado = value; }
+        }
+
+
+        private string numeroPi;
+        [Coluna("numero_pi", false, false, false, "Número da PI")]
+        public string NumeroPI
+        {
+            get { return numeroPi; }
+            set { numeroPi = value; }
+        }       
+
+        private int _Id_entidade;
+        [Coluna("Id_entidade", false, false, false, "Id que identifica a empresa 1-Unimed Vitória / 2-Sul Capixaba")]
+        public int Id_entidade
+        {
+           get { return _Id_entidade; }
+           set { _Id_entidade = value; }
+        }
+
+        private string _imgUrl;
+        [Coluna("img_url", false, false, false, "Url do Arquivo Digitalizado do Ar")]
+        public string ImgUrl
+        {
+           get { return _imgUrl; }
+           set { _imgUrl = value; }
+        }
+
+        private string _pdfUrl;
+        [Coluna("pdf_url", false, false, false, "Url do Espelho da carta PDF")]
+        public string PdfUrl
+        {
+           get { return _pdfUrl; }
+           set { _pdfUrl = value; }
+        }
+    }
+}
